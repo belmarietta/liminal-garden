@@ -3,12 +3,12 @@ body {
 }
 
 h1 {
-font-size:36px;
-font-family: cheee-bingbong, sans-serif;
-font-weight: 400;
+font-family: "AuthenticSans-90", sans-serif;
+font-weight: 500;
 font-style: normal;
 color: rgb(0, 135, 90);
-font-size: 60px;
+font-size: 24px;
+padding-top: 50px;
 }
 
 .container {
@@ -23,4 +23,9 @@ font-size: 60px;
 @media screen and (max-width: 481px) {
 .mobile { display: block; }
 .desktop { display: none; }
+}
+
+@font-face {
+  font-family: "AUTHENTICSans-90";
+  src: url("AuthenticSans-90.woff");
 }
