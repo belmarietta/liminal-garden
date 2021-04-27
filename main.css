@@ -21,7 +21,7 @@ padding-top: 50px;
 }
 
 @media screen and (max-width: 481px) {
-.mobile { display: block; }
+.mobile { display: block; overflow-x:hidden;}
 .desktop { display: none; }
 }
 
